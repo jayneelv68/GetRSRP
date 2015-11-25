@@ -4,9 +4,10 @@ package com.example.getrsrp;
 import java.util.List;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+
 import android.telephony.CellInfo;
 import android.telephony.CellInfoLte;
 import android.telephony.PhoneStateListener;
@@ -15,7 +16,8 @@ import android.util.Log;
 import android.widget.TextView;
 
 
-@SuppressLint("NewApi") public class MainActivity extends ActionBarActivity {
+@SuppressLint("NewApi")
+public class MainActivity extends Activity {
 
     SignalStrengthListener signalStrengthListener;
 
